@@ -15,10 +15,11 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  background-color: #f1ead0;
 }
 a {
   transition: all 0.3s ease;
-  color: #38B;
+  color: #097d4c;
 }
 
 a:hover,
@@ -36,7 +37,7 @@ a:focus {
 }
 
 .btn:hover {
-  background-color: #ced4da;
+  background-color: #f1ead0;
 }
 
 blockquote {
@@ -55,7 +56,7 @@ blockquote {
 }
 
 .tm-text-primary {
-  color: #37A;
+  color: #097d4c;
 }
 
 .tm-font-big {
@@ -63,15 +64,15 @@ blockquote {
 }
 
 .tm-btn-primary {
-  color: white;
-  background-color: #369;
+  color: #f1ead0;
+  background-color: #097d4c;
   padding: 14px 30px;
 }
 
 .tm-btn-primary:hover,
 .tm-btn-primary:focus {
-  color: white;
-  background-color: #38B;
+  color: #f1ead0;
+  background-color: #097d4c;
 }
 
 /* Navbar */
@@ -85,23 +86,23 @@ blockquote {
 }
 
 .tm-navbar.scroll {
-  background-color: white;
-  border-bottom: 1px solid #e9ecef;
+  background-color: #f1ead0;
+  border-bottom: 1px solid #f1ead0;
 }
 
 .navbar-brand {
-  color: white;
+  color: #f1ead0;
   font-size: 1.4rem;
   font-weight: bold;
 }
 
 .navbar-brand:hover,
 .tm-navbar.scroll .navbar-brand:hover {
-  color: #38B;
+  color: #097d4c;
 }
 
 .tm-navbar.scroll .navbar-brand {
-  color: #369;
+  color: #097d4c;
 }
 
 .nav-item {
@@ -109,28 +110,28 @@ blockquote {
 }
 
 .tm-nav-link {
-  color: white;
+  color: #f1ead0;
 }
 
 .tm-navbar.scroll .tm-nav-link {
-  color: #369;
+  color: #097d4c;
 }
 
 .tm-navbar.scroll .tm-nav-link:hover,
 .tm-navbar.scroll .tm-nav-link.current,
 .tm-nav-link:hover {
-  color: #FFF;
-  background-color: #369;
+  color: #f1ead0;
+  background-color: #097d4c;
 }
 
 .navbar-toggler {
-  border: 1px solid white;
+  border: 1px solid #f1ead0;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 .navbar-toggler-icon {
-  color: white;
+  color: #f1ead0;
   padding-top: 6px;
 }
 
@@ -227,17 +228,17 @@ blockquote {
 }
 
 .tm-down-arrow {
-  	color: #FFF;
+  	color: #f1ead0;
     cursor: pointer;
-    background: #357;
+    background: #097d4c;
     padding: 15px 40px;
     transition: all 0.3s ease;
 }
 
 .tm-down-arrow:hover,
 .tm-down-arrow:focus {
-  color: #FFF;
-  background: #37A;
+  color: #f1ead0;
+  background: #097d4c;
   padding: 20px 50px;
 }
 
@@ -258,7 +259,7 @@ blockquote {
 
 .tm-icon {
   display: block;
-  color: #37A;
+  color: #097d4c;
 }
 
 .tm-continue {
@@ -267,7 +268,7 @@ blockquote {
 
 /* Testimonials */
 #testimonials {
-  color: white;
+  color: #f1ead0;
   background-image: url(../img/infinite-loop-02.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -349,18 +350,18 @@ blockquote {
 .slick-dots li button:focus:before,
 .slick-dots li.slick-active button:before {
   opacity: 1;
-  color: #3ba0dd;
+  color: #097d4c;
 }
 
 .tm-testimonials-carousel .slick-dots li button:before {
-  color: white;
+  color: #f1ead0;
   opacity: 0.5;
 }
 
 .tm-testimonials-carousel .slick-dots li button:hover:before,
 .tm-testimonials-carousel .slick-dots li button:focus:before,
 .tm-testimonials-carousel .slick-dots li.slick-active button:before {
-  color: white;
+  color: #f1ead0;
   opacity: 1;
 }
 
@@ -374,7 +375,7 @@ blockquote {
   position: relative;
   float: left;
   overflow: hidden;
-  background: #3085a3;
+  background: #097d4c;
   text-align: center;
   cursor: pointer;
 }
@@ -389,7 +390,7 @@ blockquote {
 
 .grid figure figcaption {
   padding: 2em;
-  color: #fff;
+  color: #f1ead0;
   text-transform: uppercase;
   font-size: 1.25em;
   -webkit-backface-visibility: hidden;
@@ -465,7 +466,7 @@ figure.effect-honey figcaption::before {
   left: 0;
   width: 100%;
   height: 10px;
-  background: #38C;
+  background: #097d4c;
   content: "";
   -webkit-transform: translate3d(0, 10px, 0);
   transform: translate3d(0, 10px, 0);
@@ -512,8 +513,8 @@ figure.effect-honey:hover h2 i {
 /* Contact */
 
 #contact {
-  color: white;
-  background-color: #001828;
+  color: #f1ead0;
+  background-color: #097d4c;
   background-image: url(../img/infinite-loop-03.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -535,13 +536,13 @@ figure.effect-honey:hover h2 i {
 
 .item-link i,
 .item-link span {
-  color: white;
+  color: #f1ead0;
   transition: all 0.3s ease;
 }
 
 .item-link:hover i,
 .item-link:hover span {
-  color: #3496d8;
+  color: #097d4c;
 }
 
 .tm-input {
@@ -549,38 +550,38 @@ figure.effect-honey:hover h2 i {
 	width: 90%;
   padding: 8px 20px;
   border-radius: 6px;
-  border: 1px solid white;
+  border: 1px solid #f1ead0;
   background: transparent;
-  color: white;
+  color: #f1ead0;
 }
 
 .tm-btn-submit {
 	font-size: 0.9em;
-	color: #fff;
-	background-color: #369;
+	color: #f1ead0;
+	background-color: #097d4c;
 	width: 50%;
 	margin-bottom: 60px;
 }
 
 .tm-btn-submit:hover {
-	color: #fff;
-	background-color: #38B;
+	color: #f1ead0;
+	background-color: #097d4c;
 }
 
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: white;
+  color: #f1ead0;
   opacity: 1; /* Firefox */
 }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: white;
+  color: #f1ead0;
 }
 
 ::-ms-input-placeholder {
   /* Microsoft Edge */
-  color: white;
+  color: #f1ead0;
 }
 
 .tm-footer {
@@ -592,20 +593,20 @@ figure.effect-honey:hover h2 i {
 }
 
 .tm-footer a {
-	color: #fff;
+	color: #f1ead0;
 }
 
 .tm-footer a:hover {
-	color: #9CF;
+	color: #097d4c;
 }
 
 .tm-footer-link {
-  color: white;
+  color: #f1ead0;
 }
 
 .tm-footer-link:hover,
 .tm-footer-link:focus {
-  color: #38B;
+  color: #097d4c;
   text-decoration: none;
 }
 
